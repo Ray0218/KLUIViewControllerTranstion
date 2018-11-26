@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KLUIViewControllerTranstion_Tests' do
+  pod 'KLUIViewControllerTranstion', :path => '../'
+  
+  
+end
