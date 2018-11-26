@@ -1,0 +1,6 @@
+framework module KLUIViewControllerTranstion {
+  umbrella header "KLUIViewControllerTranstion-umbrella.h"
+
+  export *
+  module * { export * }
+}
