@@ -45,6 +45,7 @@
         _child = (id<JYTransitionAnimatorProtocol>)self;
         _presentedDuration = 0.3;
         _dismissedDuration = 0.2;
+        _rBackgroundViewColor = [UIColor colorWithWhite:0 alpha:0.8];
     }
     return self;
 }
@@ -126,7 +127,7 @@
 - (UIView *)dimBackgroundView {
     if (!_dimBackgroundView) {
         _dimBackgroundView = [[UIView alloc] init];
-        _dimBackgroundView.backgroundColor = [UIColor colorWithWhite:0 alpha:0.8];
+        _dimBackgroundView.backgroundColor = rBackgroundViewColor ;
     }
     return _dimBackgroundView;
 }
