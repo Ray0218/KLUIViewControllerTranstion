@@ -21,6 +21,8 @@
 @interface JYTransitionAnimator : NSObject
 @property (nonatomic, assign) NSTimeInterval presentedDuration;    // default is 0.3
 @property (nonatomic, assign) NSTimeInterval dismissedDuration;    // default is 0.2
+@property(nonatomic,strong)UIColor *rBackgroundViewColor;
+
 + (instancetype)animator;
 @end
 
@@ -45,7 +47,7 @@
         _child = (id<JYTransitionAnimatorProtocol>)self;
         _presentedDuration = 0.3;
         _dismissedDuration = 0.2;
-        _rBackgroundViewColor = [UIColor colorWithWhite:0 alpha:0.8];
+        _rBackgroundViewColor = [UIColor colorWithWhite:0 alpha:0.65];
     }
     return self;
 }

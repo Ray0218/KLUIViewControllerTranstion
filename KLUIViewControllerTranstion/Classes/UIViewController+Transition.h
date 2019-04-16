@@ -15,6 +15,5 @@
 - (void)jy_showViewController:(UIViewController *)vc completion:(void (^)(void))completion  ;
 
 
-@property(nonatomic,strong)UIColor *rBackgroundViewColor;
-
+ 
 @end
