@@ -1,5 +1,5 @@
 PODS:
-  - KLUIViewControllerTranstion (0.1.0)
+  - KLUIViewControllerTranstion (0.1.2)
 
 DEPENDENCIES:
   - KLUIViewControllerTranstion (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  KLUIViewControllerTranstion: cbe392462efdcc27cbf6d96e5d898d02440ab016
+  KLUIViewControllerTranstion: 7fd26aaf7d5dd32e0556467d7a09bc4ebe51dac5
 
 PODFILE CHECKSUM: d6d53c86b5f72ab5c94a33457361c30d8250ca40
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.0.rc.2

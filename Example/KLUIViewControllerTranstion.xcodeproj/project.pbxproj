@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E0EFFEA92462BEC336C5C62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		39E1EAFFCE3F242F87458D84 /* KLUIViewControllerTranstion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KLUIViewControllerTranstion.podspec; path = ../KLUIViewControllerTranstion.podspec; sourceTree = "<group>"; };
+		1E0EFFEA92462BEC336C5C62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39E1EAFFCE3F242F87458D84 /* KLUIViewControllerTranstion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLUIViewControllerTranstion.podspec; path = ../KLUIViewControllerTranstion.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -30,7 +30,7 @@
 		8335F63235F17474EB42DB0F /* Pods_KLUIViewControllerTranstion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLUIViewControllerTranstion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98C0688F57B39EA4C87CA3BA /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7DCFF0668B0B2F28FD8D73F /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B95C0774ED9F501A3D69D6F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B95C0774ED9F501A3D69D6F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -211,21 +212,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/KLUIViewControllerTranstion/KLUIViewControllerTranstion.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLUIViewControllerTranstion.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

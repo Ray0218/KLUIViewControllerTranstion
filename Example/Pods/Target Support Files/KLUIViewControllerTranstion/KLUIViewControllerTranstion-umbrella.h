@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UINavigationController+Swizzle.h"
+#import "UIViewController+Transition.h"
 
 FOUNDATION_EXPORT double KLUIViewControllerTranstionVersionNumber;
 FOUNDATION_EXPORT const unsigned char KLUIViewControllerTranstionVersionString[];

@@ -1,19 +1,19 @@
 {
   "name": "KLUIViewControllerTranstion",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "A short description of KLUIViewControllerTranstion.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ray_ios@163.com/KLUIViewControllerTranstion",
+  "description": "Add long description of the pod here.",
+  "homepage": "https://github.com/Ray0218/KLUIViewControllerTranstion",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ray_ios@163.com": "ray_ios@163.com"
+    "Ray0218": "ray_ios@163.com"
   },
   "source": {
-    "git": "https://github.com/ray_ios@163.com/KLUIViewControllerTranstion.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Ray0218/KLUIViewControllerTranstion.git",
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "8.0"

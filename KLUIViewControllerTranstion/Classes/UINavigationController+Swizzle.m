@@ -27,6 +27,9 @@
         method_exchangeImplementations(originalMethod, swizzledMethod);
     });
     
+    if (@available(ios 11.0,*)) { UIScrollView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
+        
+    }
 }
 
 -(void)ps_pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
