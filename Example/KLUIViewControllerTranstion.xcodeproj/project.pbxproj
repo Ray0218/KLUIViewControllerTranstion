@@ -7,33 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* KLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* KLAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* KLViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		CCBB22B216146D031397513D /* Pods_KLUIViewControllerTranstion_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8335F63235F17474EB42DB0F /* Pods_KLUIViewControllerTranstion_Tests.framework */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		7A48BD4657972BAC47C11EDB /* Pods_KLUIViewControllerTranstion_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D3D69BF77575F48D796292 /* Pods_KLUIViewControllerTranstion_Tests.framework */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9BF17F7B8DAF644C92BC4314 /* Pods_KLUIViewControllerTranstion_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F906264CC4AA99A0499709A7 /* Pods_KLUIViewControllerTranstion_Example.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = KLUIViewControllerTranstion;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		1E0EFFEA92462BEC336C5C62 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		39E1EAFFCE3F242F87458D84 /* KLUIViewControllerTranstion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLUIViewControllerTranstion.podspec; path = ../KLUIViewControllerTranstion.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1F8B28105F98F60078C839E1 /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Tests.release.xcconfig"; path = "Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4B9ECF0764FB4EC6BFE6A5EE /* Pods-KLUIViewControllerTranstion_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Example.debug.xcconfig"; path = "Target Support Files/Pods-KLUIViewControllerTranstion_Example/Pods-KLUIViewControllerTranstion_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* KLUIViewControllerTranstion_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLUIViewControllerTranstion_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* KLUIViewControllerTranstion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KLUIViewControllerTranstion-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* KLUIViewControllerTranstion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KLUIViewControllerTranstion-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* KLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* KLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* KLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* KLUIViewControllerTranstion_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLUIViewControllerTranstion_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		8335F63235F17474EB42DB0F /* Pods_KLUIViewControllerTranstion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLUIViewControllerTranstion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		98C0688F57B39EA4C87CA3BA /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A7DCFF0668B0B2F28FD8D73F /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B95C0774ED9F501A3D69D6F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86AA6B79A0DD43FCCD0300E7 /* KLUIViewControllerTranstion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLUIViewControllerTranstion.podspec; path = ../KLUIViewControllerTranstion.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98D3D69BF77575F48D796292 /* Pods_KLUIViewControllerTranstion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLUIViewControllerTranstion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A630B6CF6828647C76A82CD7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A8982BBE4305578007E889D9 /* Pods-KLUIViewControllerTranstion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Example.release.xcconfig"; path = "Target Support Files/Pods-KLUIViewControllerTranstion_Example/Pods-KLUIViewControllerTranstion_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AF1C2AFAC2F2AFBCAF74542B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD5FF67A8BD0B7E739A3FB67 /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F906264CC4AA99A0499709A7 /* Pods_KLUIViewControllerTranstion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLUIViewControllerTranstion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				9BF17F7B8DAF644C92BC4314 /* Pods_KLUIViewControllerTranstion_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AB195388D20070C39A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,36 +88,40 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				CCBB22B216146D031397513D /* Pods_KLUIViewControllerTranstion_Tests.framework in Frameworks */,
+				7A48BD4657972BAC47C11EDB /* Pods_KLUIViewControllerTranstion_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		14182FBC951CC34D7E1785FB /* Pods */ = {
+		4526BBB67B15EB5BD07A712E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A7DCFF0668B0B2F28FD8D73F /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */,
-				98C0688F57B39EA4C87CA3BA /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */,
+				4B9ECF0764FB4EC6BFE6A5EE /* Pods-KLUIViewControllerTranstion_Example.debug.xcconfig */,
+				A8982BBE4305578007E889D9 /* Pods-KLUIViewControllerTranstion_Example.release.xcconfig */,
+				CD5FF67A8BD0B7E739A3FB67 /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */,
+				1F8B28105F98F60078C839E1 /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for KLUIViewControllerTranstion */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				14182FBC951CC34D7E1785FB /* Pods */,
+				4526BBB67B15EB5BD07A712E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				6003F58A195388D20070C39A /* KLUIViewControllerTranstion_Example.app */,
 				6003F5AE195388D20070C39A /* KLUIViewControllerTranstion_Tests.xctest */,
 			);
 			name = Products;
@@ -83,9 +134,37 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8335F63235F17474EB42DB0F /* Pods_KLUIViewControllerTranstion_Tests.framework */,
+				F906264CC4AA99A0499709A7 /* Pods_KLUIViewControllerTranstion_Example.framework */,
+				98D3D69BF77575F48D796292 /* Pods_KLUIViewControllerTranstion_Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for KLUIViewControllerTranstion */ = {
+			isa = PBXGroup;
+			children = (
+				6003F59C195388D20070C39A /* KLAppDelegate.h */,
+				6003F59D195388D20070C39A /* KLAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* KLViewController.h */,
+				6003F5A6195388D20070C39A /* KLViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for KLUIViewControllerTranstion";
+			path = KLUIViewControllerTranstion;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* KLUIViewControllerTranstion-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* KLUIViewControllerTranstion-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -110,9 +189,9 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				39E1EAFFCE3F242F87458D84 /* KLUIViewControllerTranstion.podspec */,
-				1E0EFFEA92462BEC336C5C62 /* README.md */,
-				B95C0774ED9F501A3D69D6F4 /* LICENSE */,
+				86AA6B79A0DD43FCCD0300E7 /* KLUIViewControllerTranstion.podspec */,
+				A630B6CF6828647C76A82CD7 /* README.md */,
+				AF1C2AFAC2F2AFBCAF74542B /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -120,19 +199,38 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F5AD195388D20070C39A /* KLUIViewControllerTranstion_Tests */ = {
+		6003F589195388D20070C39A /* KLUIViewControllerTranstion_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "KLUIViewControllerTranstion_Tests" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "KLUIViewControllerTranstion_Example" */;
 			buildPhases = (
-				7FB36588FDC875394CB9F0DB /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-				F3C4A34D31936DDCA6128DED /* [CP] Embed Pods Frameworks */,
+				F1BDFAD52D23376A034C9DC5 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				3392E548824D453009BC3289 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = KLUIViewControllerTranstion_Example;
+			productName = KLUIViewControllerTranstion;
+			productReference = 6003F58A195388D20070C39A /* KLUIViewControllerTranstion_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* KLUIViewControllerTranstion_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "KLUIViewControllerTranstion_Tests" */;
+			buildPhases = (
+				5C79350B26DA5930B88C6D50 /* [CP] Check Pods Manifest.lock */,
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
 			name = KLUIViewControllerTranstion_Tests;
 			productName = KLUIViewControllerTranstionTests;
@@ -168,12 +266,24 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				6003F589195388D20070C39A /* KLUIViewControllerTranstion_Example */,
 				6003F5AD195388D20070C39A /* KLUIViewControllerTranstion_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AC195388D20070C39A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -185,7 +295,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7FB36588FDC875394CB9F0DB /* [CP] Check Pods Manifest.lock */ = {
+		3392E548824D453009BC3289 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KLUIViewControllerTranstion_Example/Pods-KLUIViewControllerTranstion_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KLUIViewControllerTranstion/KLUIViewControllerTranstion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLUIViewControllerTranstion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLUIViewControllerTranstion_Example/Pods-KLUIViewControllerTranstion_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C79350B26DA5930B88C6D50 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,27 +335,41 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F3C4A34D31936DDCA6128DED /* [CP] Embed Pods Frameworks */ = {
+		F1BDFAD52D23376A034C9DC5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KLUIViewControllerTranstion/KLUIViewControllerTranstion.framework",
+			inputFileListPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLUIViewControllerTranstion.framework",
+				"$(DERIVED_FILE_DIR)/Pods-KLUIViewControllerTranstion_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KLUIViewControllerTranstion_Tests/Pods-KLUIViewControllerTranstion_Tests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* KLAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* KLViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6003F5AA195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -238,13 +380,37 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* KLUIViewControllerTranstion_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F5B9195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -323,10 +489,41 @@
 			};
 			name = Release;
 		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B9ECF0764FB4EC6BFE6A5EE /* Pods-KLUIViewControllerTranstion_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLUIViewControllerTranstion/KLUIViewControllerTranstion-Prefix.pch";
+				INFOPLIST_FILE = "KLUIViewControllerTranstion/KLUIViewControllerTranstion-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8982BBE4305578007E889D9 /* Pods-KLUIViewControllerTranstion_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KLUIViewControllerTranstion/KLUIViewControllerTranstion-Prefix.pch";
+				INFOPLIST_FILE = "KLUIViewControllerTranstion/KLUIViewControllerTranstion-Info.plist";
+				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7DCFF0668B0B2F28FD8D73F /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */;
+			baseConfigurationReference = CD5FF67A8BD0B7E739A3FB67 /* Pods-KLUIViewControllerTranstion_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -348,8 +545,9 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 98C0688F57B39EA4C87CA3BA /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */;
+			baseConfigurationReference = 1F8B28105F98F60078C839E1 /* Pods-KLUIViewControllerTranstion_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -373,6 +571,15 @@
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
 				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "KLUIViewControllerTranstion_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

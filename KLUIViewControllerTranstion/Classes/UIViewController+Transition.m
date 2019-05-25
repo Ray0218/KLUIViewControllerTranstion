@@ -11,8 +11,8 @@
 
 @protocol JYTransitionAnimatorProtocol <NSObject>
 @required
--(void)presentedAnimateTransition:(id<UIViewControllerContextTransitioning>)transitionContext;
--(void)dismissedAnimateTransition:(id<UIViewControllerContextTransitioning>)transitionContext;
+- (void)presentedAnimateTransition:(id<UIViewControllerContextTransitioning>)transitionContext;
+- (void)dismissedAnimateTransition:(id<UIViewControllerContextTransitioning>)transitionContext;
 @end
 
 /**

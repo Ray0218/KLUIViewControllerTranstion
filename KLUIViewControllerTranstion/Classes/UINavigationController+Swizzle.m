@@ -27,8 +27,8 @@
         method_exchangeImplementations(originalMethod, swizzledMethod);
     });
     
-    if (@available(ios 11.0,*)) { UIScrollView.appearance.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
-        
+    if (@available(iOS 11.0, *)){
+        [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     }
 }
 

@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double KLUIViewControllerTranstionVersionNumber;
-FOUNDATION_EXPORT const unsigned char KLUIViewControllerTranstionVersionString[];
+FOUNDATION_EXPORT double Pods_KLUIViewControllerTranstion_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KLUIViewControllerTranstion_ExampleVersionString[];
 
